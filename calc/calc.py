@@ -7,7 +7,7 @@ while loop == True:
     print("OPCIONES: \n1-Suma\n2-Resta\n3-Multiplicar\n4-Dividir\n5-Restante")
     try:
 
-        opcion=int(input("Inserte opcion deseada: "))
+        opcion = int(input("Inserte opcion deseada: "))
         valor1 = int(input("Inserte primer valor: "))
         valor2 = int(input("Inserte segundo valor: "))
     except:
